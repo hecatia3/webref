@@ -1,4 +1,12 @@
 import React from 'react';
+import { Rubik } from 'next/font/google'
+
+const rubik = Rubik({ 
+  subsets: ['latin'],
+  display: 'swap',
+})
+
+// Kemudian tambahkan className={rubik.className} di body atau wrapper utama
 
 export default function PBL301APage() {
   return (
